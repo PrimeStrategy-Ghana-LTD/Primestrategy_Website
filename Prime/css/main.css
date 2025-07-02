@@ -1651,7 +1651,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #e59c15;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -3660,3 +3660,5 @@ footer .row {
     opacity: 1;
     transform: scale(1.05); /* Optional: slight zoom on hover */
 }
+
+
