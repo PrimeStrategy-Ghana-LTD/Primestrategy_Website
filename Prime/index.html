@@ -166,17 +166,16 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">Hello There</h3>
-                <h1 class="display-1 display-1--light">We Are PrimeStrategyConsult</h1>
+                
+                <h1 class="display-1 display-1--light">About Us</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
-                Prime Strategy Consult is a strategic consulting firm based in Ghana with a focus on helping individuals and businesses achieve their goals through innovative solutions. We provide tailored services in areas including capacity building, business advisory, human capital development, IT solutions, and research. <br><br>
-        Our team of professionals is driven by passion, guided by integrity, and committed to excellence. We partner with organizations to identify challenges and implement effective strategies that lead to measurable growth and transformation.
-    </p>
+                PrimeStrategy Ghana Limited is a research and IT consulting firm that partners with various organizations to support their immediate and future strategic goals.
+We deliver quality solutions and meaningful results to support our clients’ long-term strategic objectives.Our professionals use in-depth industry knowledge and expertise in strategy, business operations, project management, information technology, research, and data analytics to drive sustainable and measurable results for clients in all industries.</p>
             </div>
         </div> <!-- end about-desc -->
 
@@ -537,19 +536,13 @@
     </div> <!-- end photoSwipe background -->
 
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
+  <!-- HTML -->
+<div id="preloader">
+  <div class="gear-preloader">
+    <img src="images/logo-loader.gif.gif" alt="Loading..." />
+  </div>
+</div>
+
 
 
     <!-- Java Script
@@ -557,6 +550,20 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+   <script>
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("fade-out");
+
+    // Wait for the fade-out transition to complete before removing the preloader
+    setTimeout(() => {
+      preloader.style.display = "none";
+    }, 600); // Match this to your CSS transition time (600ms)
+  });
+</script>
+
+
 
 </body>
 
